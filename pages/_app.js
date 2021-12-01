@@ -1,1 +1,3 @@
-import '../st
+import '../styles/globals.css'
+
+import { ChakraPr
