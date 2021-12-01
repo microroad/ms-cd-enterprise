@@ -44,3 +44,41 @@ function HomeSwap() {
         <Flex bgColor={"#050100"} height={"fit-content"} flexDirection={"row"} >
             
             <Box margin={"40px"} width={'50%'}  >
+                
+                <Box padding={"20px"} width={"80%"} height={"fit-content"} bgColor={"#242124"} borderRadius={"30px"}>
+                <Text textAlign={"center"} fontWeight={"bold"} color={'white'} >Uniswap Offline Portal</Text>
+                    <Text color={"white"} >From Token</Text>
+                    <Select onChange={e => setUniToken(e.target.value)} placeholder='Select From token' color={"white"}  >
+                    <option value='0xc778417E063141139Fce010982780140Aa0cD5Ab'>ETH</option>
+                    <option value='0xaD6D458402F60fD3Bd25163575031ACDce07538D'>DAI</option>
+                    <option value='0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'>UNI</option>
+                    </Select>
+                    <Input placeholder='$0.00' variant={"outline"} mt={"15px"} bgColor={"#292929"} borderColor={"blackAlpha.700"} color={"white"} _hover={"none"} _active={"none"} />
+                    <Text mt={"50px"} color={"white"} >To Token</Text>
+                    <Select onChange={e =>setToUniToken(e.target.value)} color={"white"} placeholder='Select to Token'>
+                    <option value='0xc778417E063141139Fce010982780140Aa0cD5Ab'>ETH</option>
+                    <option value='0xaD6D458402F60fD3Bd25163575031ACDce07538D'>DAI</option>
+                    <option value='0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'>UNI</option>
+                    </Select>
+                    <Input placeholder='$0.00' variant={"outline"} mt={"15px"} bgColor={"#292929"} borderColor={"blackAlpha.700"} color={"white"} _hover={"none"} _active={"none"} />
+                    <Button onClick={getrawtx} variant={"solid"} colorScheme={"whiteAlpha"} alignSelf={"center"} mt={"10px"} ml={"10vw"} >Sign Offline Transaction</Button>
+
+                </Box>
+                {/* <Box padding={"20px"} mt={"100px"} width={"80%"} height={"fit-content"} bgColor={"#242124"} borderRadius={"30px"}>
+                <Text textAlign={"center"} fontWeight={"bold"} color={'white'} >Binance Offline Portal</Text>
+
+                    <Text color={"white"} >From Token</Text>
+                    <Select placeholder='Select From token' color={"white"}  >
+                    <option value='option1'>ETH</option>
+                    <option value='option2'>DAI</option>
+                    <option value='option3'>UNI</option>
+                    </Select>
+                    <Input placeholder='$0.00' variant={"outline"} mt={"15px"} bgColor={"#292929"} borderColor={"blackAlpha.700"} color={"white"} _hover={"none"} _active={"none"} />
+                    <Text mt={"50px"} color={"white"} >To Token</Text>
+                    <Select color={"white"} placeholder='Select to Token'>
+                    <option value='option1'>ETH</option>
+                    <option value='option2'>DAI</option>
+                    <option value='option3'>UNI</option>
+                    </Select>
+                    <Input placeholder='$0.00' variant={"outline"} mt={"15px"} bgColor={"#292929"} borderColor={"blackAlpha.700"} color={"white"} _hover={"none"} _active={"none"} />
+                    <Button variant={"solid"} colorScheme={"whiteAlpha"} alignSelf={"center"} mt={"10px"} ml={"10vw"} >Sign Offline Transaction</Button>
