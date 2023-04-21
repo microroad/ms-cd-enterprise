@@ -94,3 +94,45 @@
   "version" "2.0.0"
   dependencies:
     "@chakra-ui/theme-tools" "^2.0.0"
+
+"@chakra-ui/avatar@2.0.2":
+  "integrity" "sha512-cfX/n0DGlSvpf2oGa5l29jXDyNXQXfVD3jT/pEYaEbNsZ7Z+uUHDcJYoriUcXx8u/lpVCr97Fu2iwjrhczSkyQ=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/avatar/-/avatar-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "@chakra-ui/image" "2.0.2"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/breadcrumb@2.0.1":
+  "integrity" "sha512-ytoVBCkdosf4TiyBqs14Y8eCD9ypisPfztgcdEJYUvgQ2eUO7rrmIpsu+Sc+Ah3o7Lu5yHcIyu94aIQJ/ix35Q=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/breadcrumb/-/breadcrumb-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/button@2.0.1":
+  "integrity" "sha512-8ye7Bg+kpu0u+jtpbcND0FMhRyXFdNcIbjBMIj+IpWEGptSZyKYnHsdUPQKGstUNGXlf10sDpsHWI+h8m1HfWQ=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/button/-/button-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/spinner" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/checkbox@2.0.2":
+  "integrity" "sha512-dYWU7y3w4Q35UlMyfeJs958CUQXXffALBIUNHsIyUjbC/eN+p8V0vur8n0zAb3NV3WXFGXzJGHsp4JJa1HLnAg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/checkbox/-/checkbox-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "@chakra-ui/form-control" "2.0.1"
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+    "@chakra-ui/visually-hidden" "2.0.1"
+
+"@chakra-ui/clickable@2.0.1":
+  "integrity" "sha512-VfU+PpaGD4TdNm3qnYefIzcJLrKYj84suKDAulTacCTEzIluriXlXXEZ+3hIoctjfDG3iIHnnh1LrytXVhi2/A=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/clickable/-/clickable-2.0.1.tgz"
