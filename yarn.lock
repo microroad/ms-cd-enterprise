@@ -270,3 +270,34 @@
     "@chakra-ui/utils" "2.0.1"
 
 "@chakra-ui/menu@2.0.2":
+  "integrity" "sha512-YnjFgtiRgeDPnMO/4binlOlA0x6SiwJhyxn4SwE22JmHpkzNQ7S3WWIVlkdxY9Kdxwk8dAMegoxVo59xwRcIPg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/menu/-/menu-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "@chakra-ui/clickable" "2.0.1"
+    "@chakra-ui/descendant" "3.0.1"
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/popper" "3.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/transition" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/modal@2.0.2":
+  "integrity" "sha512-1XL4vzRzzLfGyPvq7/rPBkVKEEldetuv3VFqv2WUPlQjw/SBg6zxA67B6T3eiLOnPykw2PcDVcuXylr7CYuoYA=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/modal/-/modal-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "@chakra-ui/close-button" "2.0.1"
+    "@chakra-ui/focus-lock" "2.0.2"
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/portal" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/transition" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+    "aria-hidden" "^1.1.1"
+    "react-remove-scroll" "^2.5.3"
+
+"@chakra-ui/number-input@2.0.1":
+  "integrity" "sha512-O2lF52I9OIUJzfKZJlUw/oHGiBvCFdYRS7oG6c9t3nN6SKlbS+iLRKsCQ9+xp6NV0UpA70hMRZdLLdErqigZtA=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/number-input/-/number-input-2.0.1.tgz"
+  "version" "2.0.1"
