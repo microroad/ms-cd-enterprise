@@ -337,3 +337,53 @@
   dependencies:
     "@chakra-ui/react-utils" "2.0.0"
     "@popperjs/core" "^2.9.3"
+
+"@chakra-ui/portal@2.0.1":
+  "integrity" "sha512-Yfe4ASpPLlpiPAzHq+yKsjhz6gfM9gUhCDBG97WQJc8WVoY/fg/aQHNtx69arS5p2a3ka9hXqdGtZwx8rxCD7Q=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/portal/-/portal-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/progress@2.0.1":
+  "integrity" "sha512-sWw94BWC3LHfHc0Xg012IKf1L66X6hX0jclCt0Gg57isbdHbzpF0ApxF74g5oa2+AE+y0NuH7gnhsBAo/b5yUw=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/progress/-/progress-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/theme-tools" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/provider@2.0.4":
+  "integrity" "sha512-EsyapR3NynYof94Crn51gAcLteNKxVae7w+10zK0HafL4/u/2oISCPhPiefKiXT5ZtyVqaxA976hG6MDZh8yUw=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/provider/-/provider-2.0.4.tgz"
+  "version" "2.0.4"
+  dependencies:
+    "@chakra-ui/css-reset" "2.0.0"
+    "@chakra-ui/portal" "2.0.1"
+    "@chakra-ui/react-env" "2.0.1"
+    "@chakra-ui/system" "2.1.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/radio@2.0.1":
+  "integrity" "sha512-K/4RF54LXxrSZ6DuIsdGkh4eAgtjvebj+4I1Fv5/tJbG/0oG1YpkDkP1DV+W8HUm3BGIvg9doCU9IMCAzdoMUg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/radio/-/radio-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/form-control" "2.0.1"
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+    "@chakra-ui/visually-hidden" "2.0.1"
+
+"@chakra-ui/react-env@2.0.1":
+  "integrity" "sha512-jgebRKe968Eyypv15W4DWhL2xwy1d7vRbd1F23yJu8hJaVFPBjYhIF0NFOUswPcFm/UGZhPx6avA2r3PyAWSuA=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/react-env/-/react-env-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/react-utils@^2.0.0", "@chakra-ui/react-utils@2.0.0":
+  "integrity" "sha512-QcDt2/e3xhfbDcR0FF/E+E1LYGiPMRh8U6160mcgDaG+IzEXtr2ELgZI5EYNpS5HyujpNBt7ivajgi5JQ8h6ew=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/react-utils/-/react-utils-2.0.0.tgz"
