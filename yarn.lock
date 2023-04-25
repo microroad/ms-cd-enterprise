@@ -438,3 +438,40 @@
     "@chakra-ui/tag" "2.0.1"
     "@chakra-ui/textarea" "2.0.2"
     "@chakra-ui/theme" "2.0.3"
+    "@chakra-ui/toast" "2.0.5"
+    "@chakra-ui/tooltip" "2.0.1"
+    "@chakra-ui/transition" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+    "@chakra-ui/visually-hidden" "2.0.1"
+
+"@chakra-ui/select@2.0.1":
+  "integrity" "sha512-oIo58h92nNH4TIumXPwKzKhEugOUivhO1aXbPPsF0aRsoyv9fpd2WrD4HJRpeXnp0muEeO2J6jpuVp3EiLYlrw=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/select/-/select-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/form-control" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/skeleton@2.0.4":
+  "integrity" "sha512-9hPUOfV9Pe+c86Nne7Fly+Q5Epy1wXeU8uEZmdyK5ID4i2zir7aeR7AMLlBFKLjoLHAgc0WXXn9qS5x3+MoRHg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/skeleton/-/skeleton-2.0.4.tgz"
+  "version" "2.0.4"
+  dependencies:
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/media-query" "3.0.2"
+    "@chakra-ui/system" "2.1.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/slider@2.0.1":
+  "integrity" "sha512-osA+atOf5xLzZhpONAM1/UcdXxYUQkMHqB08BYR0lLVJgU9ljD0iLOPp3M9PMQefzjuG/AC8IyFGv/2qwqCuwg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/slider/-/slider-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/spinner@^2.0.1", "@chakra-ui/spinner@2.0.1":
+  "integrity" "sha512-JiJZWtulV+cdKNHgsJlzaPdzudzkC1LHhCocaW4IU6LQGf7jRcWK2lxtsrLSjOu+IfXIs02cv835Qk40dD5NJA=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/spinner/-/spinner-2.0.1.tgz"
+  "version" "2.0.1"
