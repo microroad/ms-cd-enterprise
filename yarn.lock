@@ -559,3 +559,51 @@
 
 "@chakra-ui/theme@>=2.0.0-next.0", "@chakra-ui/theme@2.0.3":
   "integrity" "sha512-zHNMYFlDSDI14+Fqao8/8b2qa9wr0zJV9mWVxGUvt4J6NNgD37LSrzhEgx/HM6cD/el++1UMrKCGcqPqO3jexw=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/theme/-/theme-2.0.3.tgz"
+  "version" "2.0.3"
+  dependencies:
+    "@chakra-ui/anatomy" "2.0.0"
+    "@chakra-ui/theme-tools" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/toast@2.0.5":
+  "integrity" "sha512-J0iKPvq8kp3mUWXu4dkhGUlsZsMvHIWI7r/jpumMpNe39ngxOYNpRykzrHKW4/l96Uc0OhLzZhB5iIp6rq/bDg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/toast/-/toast-2.0.5.tgz"
+  "version" "2.0.5"
+  dependencies:
+    "@chakra-ui/alert" "2.0.1"
+    "@chakra-ui/close-button" "2.0.1"
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/portal" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/system" "2.1.1"
+    "@chakra-ui/theme" "2.0.3"
+    "@chakra-ui/transition" "2.0.1"
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/tooltip@2.0.1":
+  "integrity" "sha512-k/8dspyoJd004gqeqYYMmTjsWFJPgq9koASH/RZ+39qL6ZuwtRbDlWjm4ffAH/Fr9EQNJRBE9Rz2W0WjEuKo8Q=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/tooltip/-/tooltip-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/hooks" "2.0.1"
+    "@chakra-ui/popper" "3.0.1"
+    "@chakra-ui/portal" "2.0.1"
+    "@chakra-ui/react-utils" "2.0.0"
+    "@chakra-ui/utils" "2.0.1"
+    "@chakra-ui/visually-hidden" "2.0.1"
+
+"@chakra-ui/transition@2.0.1":
+  "integrity" "sha512-EI0Z61Mk7ZdiWxHA0twgtgGIUUcWGvL7GsVQrDeJQl7u2Boq+isONLWqYPqZReOXRGoSFBiKZOaxnzrmmD3OBg=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/transition/-/transition-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@chakra-ui/utils" "2.0.1"
+
+"@chakra-ui/utils@^2.0.0", "@chakra-ui/utils@2.0.1":
+  "integrity" "sha512-5yvIyzskfEi7nNWC0VR0T7KtOEZyy/5QwhbLZ/WD0zutV+SddLzmS7NnnnYvyuyT4SaNx/asKLerH2ucTz1pYA=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/utils/-/utils-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    "css-box-model" "1.2.1"
