@@ -3014,3 +3014,53 @@
 "globby@^11.1.0":
   "integrity" "sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g=="
   "resolved" "https://registry.npmjs.org/globby/-/globby-11.1.0.tgz"
+  "version" "11.1.0"
+  dependencies:
+    "array-union" "^2.1.0"
+    "dir-glob" "^3.0.1"
+    "fast-glob" "^3.2.9"
+    "ignore" "^5.2.0"
+    "merge2" "^1.4.1"
+    "slash" "^3.0.0"
+
+"got@^7.1.0":
+  "integrity" "sha512-Y5WMo7xKKq1muPsxD+KmrR8DH5auG7fBdDVueZwETwV6VytKyU9OX/ddpq2/1hp1vIPvVb4T81dKQz3BivkNLw=="
+  "resolved" "https://registry.npmjs.org/got/-/got-7.1.0.tgz"
+  "version" "7.1.0"
+  dependencies:
+    "decompress-response" "^3.2.0"
+    "duplexer3" "^0.1.4"
+    "get-stream" "^3.0.0"
+    "is-plain-obj" "^1.1.0"
+    "is-retry-allowed" "^1.0.0"
+    "is-stream" "^1.0.0"
+    "isurl" "^1.0.0-alpha5"
+    "lowercase-keys" "^1.0.0"
+    "p-cancelable" "^0.3.0"
+    "p-timeout" "^1.1.1"
+    "safe-buffer" "^5.0.1"
+    "timed-out" "^4.0.0"
+    "url-parse-lax" "^1.0.0"
+    "url-to-options" "^1.0.1"
+
+"got@9.6.0":
+  "integrity" "sha512-R7eWptXuGYxwijs0eV+v3o6+XH1IqVK8dJOEecQfTmkncw9AV4dcw/Dhxi8MdlqPthxxpZyizMzyg8RTmEsG+Q=="
+  "resolved" "https://registry.npmjs.org/got/-/got-9.6.0.tgz"
+  "version" "9.6.0"
+  dependencies:
+    "@sindresorhus/is" "^0.14.0"
+    "@szmarczak/http-timer" "^1.1.2"
+    "cacheable-request" "^6.0.0"
+    "decompress-response" "^3.3.0"
+    "duplexer3" "^0.1.4"
+    "get-stream" "^4.1.0"
+    "lowercase-keys" "^1.0.1"
+    "mimic-response" "^1.0.1"
+    "p-cancelable" "^1.0.0"
+    "to-readable-stream" "^1.0.0"
+    "url-parse-lax" "^3.0.0"
+
+"graceful-fs@^4.1.2", "graceful-fs@^4.1.6":
+  "integrity" "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA=="
+  "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+  "version" "4.2.10"
