@@ -4094,3 +4094,36 @@
   "version" "0.1.7"
 
 "path-type@^4.0.0":
+  "integrity" "sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw=="
+  "resolved" "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz"
+  "version" "4.0.0"
+
+"pbkdf2@^3.0.17", "pbkdf2@^3.0.3":
+  "integrity" "sha512-iuh7L6jA7JEGu2WxDwtQP1ddOpaJNC4KlDEFfdQajSGgGPNi4OyDc2R7QnbY2bR9QjBVGwgvTdNJZoE7RaxUMA=="
+  "resolved" "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.2.tgz"
+  "version" "3.1.2"
+  dependencies:
+    "create-hash" "^1.1.2"
+    "create-hmac" "^1.1.4"
+    "ripemd160" "^2.0.1"
+    "safe-buffer" "^5.0.1"
+    "sha.js" "^2.4.8"
+
+"performance-now@^2.1.0":
+  "integrity" "sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns="
+  "resolved" "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
+  "version" "2.1.0"
+
+"picocolors@^1.0.0":
+  "integrity" "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ=="
+  "resolved" "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+  "version" "1.0.0"
+
+"picomatch@^2.3.1":
+  "integrity" "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
+  "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+  "version" "2.3.1"
+
+"popmotion@11.0.3":
+  "integrity" "sha512-Y55FLdj3UxkR7Vl3s7Qr4e9m0onSnP8W7d/xQLsoJM40vs6UKHFdygs6SWryasTZYqugMjm3BepCF4CWXDiHgA=="
+  "resolved" "https://registry.npmjs.org/popmotion/-/popmotion-11.0.3.tgz"
