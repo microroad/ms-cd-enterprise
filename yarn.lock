@@ -4015,3 +4015,40 @@
   "integrity" "sha1-IKAQOyIqcMj9OcwuWAaA893l7EM="
   "resolved" "https://registry.npmjs.org/p-locate/-/p-locate-2.0.0.tgz"
   "version" "2.0.0"
+  dependencies:
+    "p-limit" "^1.1.0"
+
+"p-timeout@^1.1.1":
+  "integrity" "sha1-XrOzU7f86Z8QGhA4iAuwVOu+o4Y="
+  "resolved" "https://registry.npmjs.org/p-timeout/-/p-timeout-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "p-finally" "^1.0.0"
+
+"p-try@^1.0.0":
+  "integrity" "sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M="
+  "resolved" "https://registry.npmjs.org/p-try/-/p-try-1.0.0.tgz"
+  "version" "1.0.0"
+
+"parent-module@^1.0.0":
+  "integrity" "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g=="
+  "resolved" "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "callsites" "^3.0.0"
+
+"parse-asn1@^5.0.0", "parse-asn1@^5.1.5":
+  "integrity" "sha512-RnZRo1EPU6JBnra2vGHj0yhp6ebyjBZpmUCLHWiFhxlzvBCCpAuZ7elsBp1PVAbQN0/04VD/19rfzlBSwLstMw=="
+  "resolved" "https://registry.npmjs.org/parse-asn1/-/parse-asn1-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "asn1.js" "^5.2.0"
+    "browserify-aes" "^1.0.0"
+    "evp_bytestokey" "^1.0.0"
+    "pbkdf2" "^3.0.3"
+    "safe-buffer" "^5.1.1"
+
+"parse-headers@^2.0.0":
+  "integrity" "sha512-ft3iAoLOB/MlwbNXgzy43SWGP6sQki2jQvAyBg/zDFAgr9bfNWZIUj42Kw2eJIl8kEi4PbgE6U1Zau/HwI75HA=="
+  "resolved" "https://registry.npmjs.org/parse-headers/-/parse-headers-2.0.5.tgz"
+  "version" "2.0.5"
